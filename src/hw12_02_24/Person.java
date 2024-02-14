@@ -34,15 +34,24 @@ public class Person {
         this.fullName = fullName;
         this.age = age;
     }
-
+    public void move(){
+        System.out.println("Такой-то " + this.fullName + " идет");
+    }
+    public void talk(){
+        System.out.println("Такой-то " + this.fullName+ " говорит");
+    }
     public static void main(String[] args) {
         Person first = new Person();
         Person second = new Person("Ivan","Moroianu",25);
         first.setAge(21);
         first.setName("Mira");
         first.setFullName("Miriam");
+        second.setFullName("kek");
         System.out.println(first);
         System.out.println(second);
+        first.move();
+        first.talk();
     }
+
 
 }
