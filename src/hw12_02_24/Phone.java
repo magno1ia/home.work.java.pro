@@ -49,6 +49,6 @@ public class Phone {
         System.out.println(one);
         one.getPhoneNumber();
         one.receiveCall("mark");
-        
+
     }
 }

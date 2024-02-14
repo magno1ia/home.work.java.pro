@@ -42,7 +42,7 @@ public class Person {
     }
     public static void main(String[] args) {
         Person first = new Person();
-        Person second = new Person("Ivan","Moroianu",25);
+        Person second = new Person("Ivan","Victor",25);
         first.setAge(21);
         first.setName("Mira");
         first.setFullName("Miriam");
